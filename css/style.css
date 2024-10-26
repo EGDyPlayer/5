@@ -97,7 +97,7 @@ nav {
 .titleButton:hover {
     border: 10px solid #ffffff;
     font-size: 25pt;
-    box-shadow: 0 0 10px #ffffff;
+    box-shadow: 10px 10px #ffffff33;
 }
 
 nav:has(.navButtons):has(.navBtn:hover) {

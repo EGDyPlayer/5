@@ -56,6 +56,7 @@ nav {
     font-size: 18pt;
     text-decoration: underline;
     scale: 1.05;
+    cursor: pointer;
 }
 
 .headerTitle {
@@ -98,6 +99,7 @@ nav {
     border: 10px solid #ffffff;
     font-size: 25pt;
     box-shadow: 10px 10px #ffffff33;
+    cursor: pointer;
 }
 
 nav:has(.navButtons):has(.navBtn:hover) {

@@ -47,13 +47,13 @@ nav {
     color: #fff;
     font-family: "Lexend Mega";
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 14pt;
     transition: all ease 0.2s;
 }
 
 .navBtn:hover {
     border: 3px solid #ffffff50;
-    font-size: 18pt;
+    font-size: 16pt;
     text-decoration: underline;
     scale: 1.05;
     cursor: pointer;
@@ -82,7 +82,7 @@ nav {
     justify-content: center;
 }
 
-.titleButton {
+#titleButton {
     width: 500px;
     height: 100px;
     background-color: #00000010;
@@ -93,9 +93,10 @@ nav {
     text-transform: uppercase;
     font-size: 22pt;
     transition: all ease 0.2s;
+    margin-top: 125px;
 }
 
-.titleButton:hover {
+#titleButton:hover {
     border: 10px solid #ffffff;
     font-size: 25pt;
     box-shadow: 10px 10px #ffffff33;
@@ -140,4 +141,58 @@ section {
     height: 200vh;
     background-color: #151515;
     border-top: 5px #000 solid;
+}
+
+footer {
+    background-color: #101010;
+    height: 30vh;
+}
+
+#projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 90vh;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    background-color: #121212;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.projectsTitle {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.projectsSliderContainer {
+    margin-top: 5px;
+    width: 90%;
+    background-color: #151515;
+    height: 75%;
+    border-radius: 25px;
+}
+
+.placeHolderText, .footerDate {
+    color: #ffffff99;
+    text-align: center;
+    transition: all ease 1s;
+    animation-name: placeholder;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes placeholder {
+    0% {
+        color: #ffffff99;
+    }
+    50% {
+        color: #ffffff33;
+    }
+
+    100% {
+        color: #ffffff99;
+    }
+
 }

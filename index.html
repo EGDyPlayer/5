@@ -7,33 +7,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>title</title>
+    <title>Project</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
             <div class="logoHeader"><h1 class="headerTitle">Site name</h1></div>
             <div class="navButtons">
-                <button class="navBtn" id="navHome" onclick="">Home</button>
-                <button class="navBtn" id="navAbout">About</button>
-                <button class="navBtn" id="navShop">Shop</button>
-                <button class="navBtn" id="navContact">Contact</button>
+                <button class="navBtn" id="navHome" onclick="clickNav(this.id)">Home</button>
+                <button class="navBtn" id="navProjects" onclick="clickNav(this.id)">Projects</button>
+                <button class="navBtn" id="navShop" onclick="clickNav(this.id)">Soon</button>
+                <button class="navBtn" id="navContact" onclick="clickNav(this.id)">Soon</button>
             </div>
         </nav>
         <div class="titleContainer">
             <div class="titleTextFields">
-                <h1 class="titleText">Site name</h1>
+                <h1 class="titleText" name="mainPart">Site name</h1>
                 <p class="titleDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi dolore nulla sapiente, quidem perferendis laboriosam debitis provident maiores, deserunt ex vero quam ratione quasi aliquid asperiores ad. Consectetur, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat illo quam odit rerum deleniti dignissimos commodi quibusdam! Non ratione repellat perferendis, repudiandae dignissimos quae quia voluptatum ducimus magnam quidem est.</p>
             </div>
         </div>
         <div class="titleButtonContainer">
-            <button class="titleButton">Get Started</button>
+            <button id="titleButton">Get Started</button>
         </div>
     </header>
 
     <section>
-        
+        <div id="projectsContainer">
+            <h1 class="projectsTitle">Available Projects</h1>
+            <div class="projectsSliderContainer">
+                <p class="placeHolderText">Coming soon</p>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <p class="footerDate">Made in 2024</p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

@@ -1,0 +1,141 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #101010;
+}
+
+p, h1 {
+    font-family: "Lexend Mega", sans-serif;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 1vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    border-bottom: 4px solid #000000;
+    transition: all ease .2s;
+}
+
+.logoHeader {
+    height: 100%;
+    width: 48%;
+    align-items: center;
+}
+
+.navButtons {
+    width: 52%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBtn {
+    height: 70%;
+    width: 23%;
+    background-color: #00000050;
+    border-radius: 100px;
+    border: 0px solid #00000050;
+    color: #fff;
+    font-family: "Lexend Mega";
+    text-transform: uppercase;
+    font-size: 16pt;
+    transition: all ease 0.2s;
+}
+
+.navBtn:hover {
+    border: 3px solid #ffffff50;
+    font-size: 18pt;
+    text-decoration: underline;
+    scale: 1.05;
+}
+
+.headerTitle {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 32pt;
+    margin: 0;
+    line-height: 80px;
+    padding-left: 10%;
+}
+
+.titleContainer {
+    height: 40vh;
+    width: 100%;
+}
+
+.titleButtonContainer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleButton {
+    width: 500px;
+    height: 100px;
+    background-color: #00000010;
+    border-radius: 100px;
+    border: 5px solid #ffffff66;
+    color: #fff;
+    font-family: "Lexend Mega";
+    text-transform: uppercase;
+    font-size: 22pt;
+    transition: all ease 0.2s;
+}
+
+.titleButton:hover {
+    border: 10px solid #ffffff;
+    font-size: 25pt;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+nav:has(.navButtons):has(.navBtn:hover) {
+    background-color: #ffffff05;
+    box-shadow: 0 3px 10px #000;
+}
+
+.titleTextFields {
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.titleText {
+    font-size: 45pt;
+    text-transform: uppercase;
+    transition: all ease .5s;
+}
+
+.titleText:hover {
+    font-size: 47pt;
+}
+
+.titleDescription {
+    color: #ffffff88;
+    line-height: 1.5;
+    transition: all ease .5s;
+}
+
+.titleDescription:hover {
+    color: #fff;
+}
+
+section {
+    margin-top: 100vh;
+    width: 100%;
+    height: 200vh;
+    background-color: #151515;
+    border-top: 5px #000 solid;
+}

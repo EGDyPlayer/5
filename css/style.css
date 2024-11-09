@@ -29,7 +29,7 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 60px;
+        height: 45px;
         transition: all ease .2s;
     }
     .navButtons {
@@ -41,8 +41,8 @@ header {
         align-items: center;
     }
     .navBtn {
-        height: 70%;
-        width: 23%;
+        height: 90%;
+        width: 30%;
         background-color: #00000000;
         border: 0;
         border-bottom: 0px solid #00000050;
@@ -53,6 +53,7 @@ header {
         transition: all ease 0.2s;
     }
     .navBtn:hover {
+        background-color: #00000020;
         border-bottom: 3px solid #ffffff50;
         font-size: 18pt;
         scale: 1.05;
@@ -103,7 +104,7 @@ header {
     #langIntroHTML:hover, #langIntroCSS:hover, #langIntroJS:hover {border-width: 5px;}
     #langIntroHTML {border-color: #f1660088;}
 
-    #langIntroCSS {border-color: #00edf188;}
+    #langIntroCSS {border-color: #14ebff88;}
     
     #langIntroJS {border-color: #f7ff0588;}
 
@@ -111,7 +112,7 @@ header {
     .langIntroCard:hover > .langIntroTitle {font-size: 25pt; font-weight: 700;}
 
     .titleHTML {color: #f16600;}
-    .titleCSS {color: #00edf1;}
+    .titleCSS {color: #14ebff;}
     .titleJS {color: #f7ff05;}
 
     #langTitle {text-align: center; margin-bottom: 5vh; font-size: 20pt;}

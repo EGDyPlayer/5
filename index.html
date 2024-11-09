@@ -6,43 +6,54 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=M+PLUS+Rounded+1c&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Project</title>
 </head>
 <body>
     <header id="header">
         <nav>
-            <div class="logoHeader"><h1 class="headerTitle">Site name</h1></div>
             <div class="navButtons">
-                <button class="navBtn" id="navHome" onclick="clickNav(this.id)">Home</button>
-                <button class="navBtn" id="navProjects" onclick="clickNav(this.id)">Projects</button>
-                <button class="navBtn" id="navShop" onclick="clickNav(this.id)">Soon</button>
-                <button class="navBtn" id="navContact" onclick="clickNav(this.id)">Soon</button>
+                <button class="navBtn" id="navHome" onclick="clickNav(this.id)">Головна</button>
+                <button class="navBtn" id="navProjects" onclick="clickNav(this.id)">Скоро</button>
+                <button class="navBtn" id="navShop" onclick="clickNav(this.id)">Скоро</button>
+                <button class="navBtn" id="navContact" onclick="clickNav(this.id)">Скоро</button>
             </div>
         </nav>
-        <div class="titleContainer">
-            <div class="titleTextFields">
-                <h1 class="titleText" name="mainPart">Site name</h1>
-                <p class="titleDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi dolore nulla sapiente, quidem perferendis laboriosam debitis provident maiores, deserunt ex vero quam ratione quasi aliquid asperiores ad. Consectetur, dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat illo quam odit rerum deleniti dignissimos commodi quibusdam! Non ratione repellat perferendis, repudiandae dignissimos quae quia voluptatum ducimus magnam quidem est.</p>
+        <div id="titleContainer">
+            <div id="titleTextFields">
+                <h1 class="titleText" name="mainPart">Привіт!</h1>
+                <p class="titleDescription">Мене звати Даниіл! Я закінчую курс Програмування в <a class="justSmartLink" href="https://justsmart.com.ua/uk">онлайн-школі JustSmart</a>. Тут ви знайдете інформацію про технології, з якими я працював, а також приклади моїх проєктів, які демонструють мої вміння у створенні веб-сторінок. Запрошую ознайомитися!</p>
             </div>
-        </div>
-        <div class="titleButtonContainer">
-            <button id="titleButton">Get Started</button>
+            <h1 id="langTitle">Що я вчив?</h1>
+            <div id="langIntros">
+                <div class="langIntroCard" id="langIntroHTML">
+                    <h1 class="langIntroTitle titleHTML">HTML</h1>
+                    <p class="langIntroDesc descHTML">Використовується для розміщення елементів на сторінці. Створює "скелет" сайту, де кожен елемент має своє місце і призначення.</p>
+                </div>
+                <div class="langIntroCard" id="langIntroCSS">
+                    <h1 class="langIntroTitle titleCSS">CSS</h1>
+                    <p class="langIntroDesc descCSS">Використовується для оформлення веб-сторінки. З його допомогою можна змінювати кольори, шрифти, відступи, розміри та інші параметри елементів сторінки</p>
+                </div>
+                <div class="langIntroCard" id="langIntroJS">
+                    <h1 class="langIntroTitle titleJS">JavaScript</h1>
+                    <p class="langIntroDesc descJS">Мова програмування, завдяки якій сторінки стають динамічними, дозволяючи користувачам взаємодіяти з її елементами.</p>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section>
+    <!-- <section>
         <div id="projectsContainer">
-            <h1 class="projectsTitle">Available Projects</h1>
+            <h1 class="projectsTitle">Проекти</h1>
             <div class="projectsSliderContainer">
-                <p class="placeHolderText">Coming soon</p>
+                <p class="placeHolderText">Скоро</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <footer>
-        <p class="footerDate">Made in 2024</p>
-    </footer>
+    <!-- <footer>
+        <p class="footerDate">Зроблено в 2024</p>
+    </footer> -->
 
     <script src="js/script.js"></script>
 </body>

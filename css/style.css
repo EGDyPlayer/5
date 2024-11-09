@@ -3,137 +3,167 @@ html, body {
     margin: 0;
     background-color: #101010;
 }
-
 p, h1 {
-    font-family: "Lexend Mega", sans-serif;
+    font-family: "M PLUS Rounded 1c", sans-serif;
     color: #fff;
+}
+a {
+    text-decoration: none;
+    transition: all .2s ease;
+}
+.justSmartLink {
+    color: #f16600;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+.justSmartLink:hover {
+    text-decoration: underline;
+    color: #feb37d;
 }
 
 header {
     width: 100%;
     height: 1vh;
 }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 60px;
+        transition: all ease .2s;
+    }
+    .navButtons {
+        width: 52%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navBtn {
+        height: 70%;
+        width: 23%;
+        background-color: #00000000;
+        border: 0;
+        border-bottom: 0px solid #00000050;
+        color: #fff;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        text-transform: uppercase;
+        font-size: 16pt;
+        transition: all ease 0.2s;
+    }
+    .navBtn:hover {
+        border-bottom: 3px solid #ffffff50;
+        font-size: 18pt;
+        scale: 1.05;
+        cursor: pointer;
+    }
+    .headerTitle {
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        font-size: 32pt;
+        margin: 0;
+        line-height: 80px;
+        padding-left: 10%;
+    }
+    nav:hover {
+        background-color: #ffffff05;
+        box-shadow: 0 3px 10px #000;
+        height: 80px;
+    }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 80px;
-    border-bottom: 4px solid #000000;
-    transition: all ease .2s;
-}
 
-.logoHeader {
-    height: 100%;
-    width: 48%;
-    align-items: center;
-}
 
-.navButtons {
-    width: 52%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navBtn {
-    height: 70%;
-    width: 23%;
-    background-color: #00000050;
-    border-radius: 100px;
-    border: 0px solid #00000050;
-    color: #fff;
-    font-family: "Lexend Mega";
-    text-transform: uppercase;
-    font-size: 14pt;
-    transition: all ease 0.2s;
-}
-
-.navBtn:hover {
-    border: 3px solid #ffffff50;
-    font-size: 16pt;
-    text-decoration: underline;
-    scale: 1.05;
-    cursor: pointer;
-}
-
-.headerTitle {
-    width: 100%;
-    height: 100%;
-    text-transform: uppercase;
-    font-size: 32pt;
-    margin: 0;
-    line-height: 80px;
-    padding-left: 10%;
-}
-
-.titleContainer {
+#titleContainer {
     height: 40vh;
     width: 100%;
 }
+    #langIntros {
+        display: flex;
+        width: 90%;
+        height: 225px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 5%;
+    }
 
-.titleButtonContainer {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-}
+    .langIntroCard {
+        width: 28%;
+        height: 100%;
+        border-radius: 20px;
+        padding: 1%;
+        box-shadow: 15px 15px 0 #000;
+        transition: all .3 ease;
+    }
+    .langIntroCard:hover {background-color: #151515;}
 
-#titleButton {
-    width: 500px;
-    height: 100px;
-    background-color: #00000010;
-    border-radius: 100px;
-    border: 5px solid #ffffff66;
-    color: #fff;
-    font-family: "Lexend Mega";
-    text-transform: uppercase;
-    font-size: 22pt;
-    transition: all ease 0.2s;
-    margin-top: 125px;
-}
+    #langIntroHTML, #langIntroCSS, #langIntroJS {border: 1px #000 solid; transition: all .2s ease}
+    #langIntroHTML:hover, #langIntroCSS:hover, #langIntroJS:hover {border-width: 5px;}
+    #langIntroHTML {border-color: #f1660088;}
 
-#titleButton:hover {
-    border: 10px solid #ffffff;
-    font-size: 25pt;
-    box-shadow: 10px 10px #ffffff33;
-    cursor: pointer;
-}
+    #langIntroCSS {border-color: #00edf188;}
+    
+    #langIntroJS {border-color: #f7ff0588;}
 
-nav:has(.navButtons):has(.navBtn:hover) {
-    background-color: #ffffff05;
-    box-shadow: 0 3px 10px #000;
-}
+    .langIntroCard:hover > .langIntroDesc {color: #fff;}
+    .langIntroCard:hover > .langIntroTitle {font-size: 25pt; font-weight: 700;}
 
-.titleTextFields {
-    width: 60%;
-    height: 100%;
-    margin-left: 10%;
-    margin-top: 50px;
-}
+    .titleHTML {color: #f16600;}
+    .titleCSS {color: #00edf1;}
+    .titleJS {color: #f7ff05;}
 
-.titleText {
-    font-size: 45pt;
-    text-transform: uppercase;
-    transition: all ease .5s;
-}
+    #langTitle {text-align: center; margin-bottom: 5vh; font-size: 20pt;}
 
-.titleText:hover {
-    font-size: 47pt;
-}
+    .langIntroTitle {
+        text-align: center;
+        text-decoration: none;
+        line-height: .9;
+        text-shadow: 5px 5px 2px #353535;
+        font-family: "Source Code Pro", monospace;
+        font-weight: 500;
+        font-size: 23pt;
+        transition: all .2s ease;
+    }
+    .langIntroDesc {
+        color: #ffffffaa;
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
+        font-family: "Source Code Pro", monospace;
+        font-weight: 400;
+        transition: all .3 ease;
+    }
+    
+    #titleTextFields {
+        width: 60%;
+        height: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    .titleText {
+        font-size: 45pt;
+        text-transform: uppercase;
+        transition: all ease .3s;
+    }
+    .titleText:hover {
+        font-size: 47pt;
+    }
+    .titleDescription {
+        color: #ffffffaa;
+        font-size: 14pt;
+        line-height: 1.5;
+        transition: all ease .3s;
+    }
+    .titleDescription:hover {
+        color: #fff;
+    }
+    .titleDescription:hover a{
+        --orange: #000;
+    }
 
-.titleDescription {
-    color: #ffffff88;
-    line-height: 1.5;
-    transition: all ease .5s;
-}
 
-.titleDescription:hover {
-    color: #fff;
-}
 
 section {
     margin-top: 100vh;
@@ -143,36 +173,32 @@ section {
     border-top: 5px #000 solid;
 }
 
-footer {
-    background-color: #101010;
-    height: 30vh;
-}
 
-#projectsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-    height: 90vh;
-    margin-left: 2.5%;
-    margin-top: 2.5%;
-    background-color: #121212;
-    border-radius: 25px;
-    padding: 10px;
-}
+    #projectsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        height: 90vh;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        background-color: #121212;
+        border-radius: 25px;
+        padding: 10px;
+    }
+    .projectsTitle {
+        text-align: center;
+        font-size: 20pt;
+    }
+    .projectsSliderContainer {
+        margin-top: 5px;
+        width: 90%;
+        background-color: #151515;
+        height: 75%;
+        border-radius: 25px;
+    }
 
-.projectsTitle {
-    text-align: center;
-    font-size: 20pt;
-}
 
-.projectsSliderContainer {
-    margin-top: 5px;
-    width: 90%;
-    background-color: #151515;
-    height: 75%;
-    border-radius: 25px;
-}
 
 .placeHolderText, .footerDate {
     color: #ffffff99;
@@ -182,6 +208,15 @@ footer {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
+
+
+footer {
+    background-color: #101010;
+    height: 30vh;
+}
+
+
 
 @keyframes placeholder {
     0% {

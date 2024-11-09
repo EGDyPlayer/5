@@ -14,7 +14,7 @@
         <nav>
             <div class="navButtons">
                 <button class="navBtn" id="navHome" onclick="clickNav(this.id)">Головна</button>
-                <button class="navBtn" id="navProjects" onclick="clickNav(this.id)">Скоро</button>
+                <button class="navBtn" id="navProjects" onclick="clickNav(this.id)">Проєкти</button>
                 <button class="navBtn" id="navShop" onclick="clickNav(this.id)">Скоро</button>
                 <button class="navBtn" id="navContact" onclick="clickNav(this.id)">Скоро</button>
             </div>
@@ -42,18 +42,36 @@
         </div>
     </header>
 
-    <!-- <section>
-        <div id="projectsContainer">
-            <h1 class="projectsTitle">Проекти</h1>
-            <div class="projectsSliderContainer">
-                <p class="placeHolderText">Скоро</p>
+    <section>
+        <div id="projectsSection">
+            <h1 id="projectsTitle">Мої Проєкти</h1>
+            <div id="projectsContainer">
+                <div class="projectCard">
+                    <h1 class="projectName">JS Слайдер</h1>
+                    <p class="projectNumber">Проєкт 4.4</p>
+                    <p class="projectDesc">Створення інтерактивного слайдера використовуючи JavaScript: <ul>
+                        <li><p>Керування стилями через JS;</p></li>
+                        <li><p>Функції JS.</p></li>
+                    </ul></p>
+                    <button class="projectLink" onclick="window.open('pages/slider.html')"><h1>Переглянути</h1></button>
+                </div>
+                <div class="projectCard">
+                    <h1 class="projectName">Міні-гра Клікер</h1>
+                    <p class="projectNumber">Проєкт 4.6</p>
+                    <p class="projectDesc">Проєкт узагальнення знань з JavaScript, а також: <ul>
+                        <li><p>Генерування випадкових чисел;</p></li>
+                        <li><p>Округлення чисел;</p></li>
+                        <li><p>Функції через певні проміжки часу.</p></li>
+                    </ul></p>
+                    <button class="projectLink" onclick="window.open('pages/clicker.html')"><h1>Переглянути</h1></button>
+                </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <footer>
+    <footer>
         <p class="footerDate">Зроблено в 2024</p>
-    </footer> -->
+    </footer>
 
     <script src="js/script.js"></script>
 </body>

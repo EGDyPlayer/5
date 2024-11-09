@@ -2,7 +2,7 @@ const getStarted = document.getElementById("titleButton");
 
 const scrollOffsets = {
     navHome:"header",
-    navProjects: "projectsContainer"
+    navProjects: "projectsSection"
 };
 
 function clickNav(buttonId) {

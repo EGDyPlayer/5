@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/clickerstyle.css">
+    <title>Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <p id="titleText">Click the button to start</p>
+        <div class="panel">
+            <div class="panelElement">
+                <p id="counter">Score: 0</p>
+            </div>
+            <div class="panelElement">
+                <p id="highscore">Highscore: 0</p>
+            </div>
+            <div class="panelElement">
+                <p id="multiplier">Score per click: 1</p>
+            </div>
+            <div class="panelElement">
+                <p id="timeLeft">Time left: 10</p>
+            </div>
+        </div>
+    </div>
+    <button id="clickBtn" onclick="flip()">Click</button>
+    <script src="../js/clickerscript.js"></script>
+</body>
+</html>

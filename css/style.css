@@ -98,7 +98,7 @@ header {
         border-radius: 20px;
         padding: 1%;
         box-shadow: 15px 15px 0 #000;
-        transition: all .3 ease;
+        transition: all .3s ease;
     }
     .langIntroCard:hover {background-color: #151515; scale: 1.05;}
 
@@ -136,7 +136,7 @@ header {
         margin-left: 10%;
         font-family: "Source Code Pro", monospace;
         font-weight: 400;
-        transition: all .3 ease;
+        transition: all .3s ease;
     }
     
     #titleTextFields {
@@ -201,7 +201,7 @@ section {
     }
 
 
-    #projectsTitle {
+    .projectsTitle {
         text-align: center;
         font-size: 25pt;
         line-height: .5;

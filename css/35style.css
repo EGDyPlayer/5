@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.links {
+  border: 2px solid #28a745;
+  line-height: 50px;
+  background-color: #e4e4e4;
+  color: #28a745;
+  font-size: 20pt;
+  padding: 5px 15px 5px 15px;
+}
+
+.links:hover {
+  color: red;
+  transition: all .2s 0s ease;
+  text-decoration: none;
+  background-color: yellow;
+}
+
+a:hover {
+  color: red;
+  transition: all .2s 0s ease;
+  text-decoration: none;
+}
+
+.div1, .div2, .div3, .div4, .div5 {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  background-color: #28a745;
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.div1:hover {
+  width: 500px;
+  background-color: #dbea10;
+  transition-duration: 3s;
+  transition-property: inherit;
+  transition-delay: all;
+  transition-timing-function:linear;
+}
+
+.div2:hover {
+  width: 500px;
+  background-color: #dbea10;
+  transition-duration: 3s;
+  transition-property: inherit;
+  transition-delay: all;
+  transition-timing-function: ease-out;
+}
+
+.div3:hover {
+  width: 500px;
+  background-color: #dbea10;
+  transition-duration: 3s;
+  transition-property: inherit;
+  transition-delay: all;
+  transition-timing-function: ease-in-out;
+}
+
+.div4:hover {
+  width: 500px;
+  background-color: #dbea10;
+  transition-duration: 3s;
+  transition-property: inherit;
+  transition-delay: all;
+  transition-timing-function: ease-in;
+}
+
+.div5:hover {
+  width: 500px;
+  background-color: #dbea10;
+  transition-duration: 3s;
+  transition-property: inherit;
+  transition-delay: all;
+  transition-timing-function: ease;
+}
+
+.floatdiv {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  float: right;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+  border: 1px solid #28a745;
+  padding: 10px;
+}
+
+submit {
+  margin: auto;
+}

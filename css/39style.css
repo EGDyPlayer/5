@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  width: 20px;
+  margin-top: 100px;
+  position: absolute;
+  border-radius: 10px;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+div:nth-child(2){
+  animation-delay:0.5s;
+}
+div:nth-child(3){
+  animation-delay:1s;
+}
+div:nth-child(4){
+  animation-delay:1.5s;
+}
+div:nth-child(5){
+  animation-delay:2s;
+}
+div:nth-child(6){
+  animation-delay:2.5s;
+}
+div:nth-child(7){
+  animation-delay:3s;
+}
+div:nth-child(8){
+  animation-delay:3.5s;
+}
+div:nth-child(9){
+  animation-delay:4s;
+}
+div:nth-child(10){
+  animation-delay:4.5s;
+}
+div:nth-child(11){
+  animation-delay:5s;
+}
+
+@keyframes slide {
+  0% {
+    left: 0%;
+    background:#ff0000;
+    height: 100px;
+    top: 0;
+  }
+
+  10% {
+    top: -50px;
+    background: #00ff00;
+    height: 50px;
+  }
+
+  20% {
+    left: 50%;
+    background: #0000ff;
+    height: 100px;
+    top: 0;
+  }
+
+  30% {
+    top: -50px;
+    background: #ffff00;
+    height: 50px;
+  }
+
+  40% {
+    left: 100%;
+    background:#ff0000;
+    height: 100px;
+    top: 0;
+  }
+
+  50% {
+    top: 50px;
+    background: #00ff00;
+    height: 50px;
+  }
+
+  60% {
+    left: 75%;
+    background: #0000ff;
+    height: 100px;
+    top: 0;
+  }
+
+  70% {
+    top: 50px;
+    background: #ffff00;
+    height: 50px;
+  }
+
+  80% {
+    left: 50%;
+    background:#ff0000;
+    height: 100px;
+    top: 0;
+  }
+
+  90% {
+    top: 50px;
+    background: #ffff00;
+    height: 50px;
+  }
+
+  100% {
+    left: 0%;
+    background:#ff0000;
+    height: 100px;
+    top: 0;
+  }
+}

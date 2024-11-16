@@ -43,7 +43,7 @@ header {
     }
     .navBtn {
         height: 90%;
-        width: 30%;
+        width: 40%;
         background-color: #00000000;
         border: 0;
         border-bottom: 0px solid #00000050;
@@ -171,7 +171,7 @@ header {
 section {
     margin-top: 100vh;
     width: 100%;
-    height: 200vh;
+    height: auto;
     background-color: #151515;
     border-top: 5px #000 solid;
 }
@@ -189,6 +189,18 @@ section {
         border-radius: 25px;
         padding: 10px;
     }
+
+    #allProjects {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        padding: 10px;
+    }
+
+
     #projectsTitle {
         text-align: center;
         font-size: 25pt;
@@ -205,6 +217,48 @@ section {
         height: 75%;
         border-radius: 25px;
     }
+    .projectsSectionSmall {
+        background-color: #121212;
+        height: auto;
+        margin-bottom: 1vh;
+        border-radius: 25px;
+    }
+    .projectSectionInfo {
+        height: auto;
+        position: relative;
+    }
+    .projectSectionTitle {
+        text-align: center;
+    }
+
+    .projectsContainerSmall {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 3%;
+        padding-right: 3%;
+        justify-content: space-evenly;
+    }
+    .projectCardSmall {
+        position: relative;
+        width: 100%;
+        margin-bottom: 2.5%;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 170px;
+        border-radius: 20px;
+        box-shadow: 15px 15px 0 #000;
+        border: 1px solid #ffffff50;
+        transition: all .3s ease;
+        background-color: #121212;
+    }
+
+    .projectCardSmall:hover {
+        background-color: #202020;
+        scale: 1.01;
+        border: 5px solid #ffffff;
+    }
+
     .projectCard {
         position: relative;
         width: 30%;
@@ -277,7 +331,7 @@ section {
 
 footer {
     background-color: #101010;
-    height: 30vh;
+    height: 10vh;
 }
 
 

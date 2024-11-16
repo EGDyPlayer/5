@@ -15,8 +15,6 @@
             <div class="navButtons">
                 <button class="navBtn" id="navHome" onclick="clickNav(this.id)">Головна</button>
                 <button class="navBtn" id="navProjects" onclick="clickNav(this.id)">Проєкти</button>
-                <button class="navBtn" id="navShop" onclick="clickNav(this.id)">Скоро</button>
-                <button class="navBtn" id="navContact" onclick="clickNav(this.id)">Скоро</button>
             </div>
         </nav>
         <div id="titleContainer">
@@ -43,8 +41,9 @@
     </header>
 
     <section>
+        <h1 id="projectsTitle">Мої Проєкти</h1>
         <div id="projectsSection">
-            <h1 id="projectsTitle">Мої Проєкти</h1>
+            <h1 id="projectsTitle">Найвагоміщі Проєкти</h1>
             <div id="projectsContainer">
                 <div class="projectCard">
                     <h1 class="projectName">JS Слайдер</h1>
@@ -65,6 +64,111 @@
                     </ul></p>
                     <button class="projectLink" onclick="window.open('pages/clicker.html')"><h1>Переглянути</h1></button>
                 </div>
+                <div class="projectCard">
+                    <h1 class="projectName">Віртуальний Зоопарк</h1>
+                    <p class="projectNumber">Проєкт 1.6</p>
+                    <p class="projectDesc">Проєкт узагальнення знань з HTML, а також: <ul>
+                        <li><p>Сайт з декількома сторінками;</p></li>
+                        <li><p>Використання медіа файлів.</p></li>
+                    </ul></p>
+                    <button class="projectLink" onclick="window.open('pages/16index.html')"><h1>Переглянути</h1></button>
+                </div>
+            </div>
+        </div>
+        <h1 id="projectsTitle">Усі Проєкти</h1>
+        <p class="placeHolderText">Деякі проєкти пропущені, тому що їх не вдалося знайти.</p>
+        <div id="allProjects">
+            <div class="projectsSectionSmall">
+                <div class="projectSectionInfo">
+                    <h1 class="projectSectionTitle">Модуль 1</h1>
+                </div>
+                <div class="projectsContainerSmall">
+                    <button class="projectCardSmall" onclick="window.open('pages/16index.html')">
+                        <h1 class="projectTitle">Робота з пов’язаними між собою веб-сторінками з текстом, зображеннями, відео</h1>
+                        <p class="projectNumber">Проєкт 1.6</p>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="projectsSectionSmall">
+                <div class="projectSectionInfo">
+                    <h1 class="projectSectionTitle">Модуль 2</h1>
+                </div>
+                <div class="projectsContainerSmall">
+                    <button class="projectCardSmall" onclick="window.open('pages/21index.html')">
+                        <h1 class="projectTitle">Знайомство з CSS-властивостями</h1>
+                        <p class="projectNumber">Проєкт 2.1</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/24index.html')">
+                        <h1 class="projectTitle">Властивості display та box-sizing</h1>
+                        <p class="projectNumber">Проєкт 2.4</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/25index.html')">
+                        <h1 class="projectTitle">Наслідування та каскадність в CSS. Властивість position</h1>
+                        <p class="projectNumber">Проєкт 2.5</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/26index.html')">
+                        <h1 class="projectTitle">Додавання шрифтів</h1>
+                        <p class="projectNumber">Проєкт 2.6</p>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="projectsSectionSmall">
+                <div class="projectSectionInfo">
+                    <h1 class="projectSectionTitle">Модуль 3</h1>
+                </div>
+                <div class="projectsContainerSmall">
+                    <button class="projectCardSmall" onclick="window.open('pages/35index.html')">
+                        <h1 class="projectTitle">Плавні переходи + Форми</h1>
+                        <p class="projectNumber">Проєкт 3.5 і 3.6</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/37index.html')">
+                        <h1 class="projectTitle">Двовимірні трансформації</h1>
+                        <p class="projectNumber">Проєкт 3.7</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/38index.html')">
+                        <h1 class="projectTitle">Адаптивна верстка</h1>
+                        <p class="projectNumber">Проєкт 3.8</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/39index.html')">
+                        <h1 class="projectTitle">CSS-анімація</h1>
+                        <p class="projectNumber">Проєкт 3.9</p>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="projectsSectionSmall">
+                <div class="projectSectionInfo">
+                    <h1 class="projectSectionTitle">Модуль 4</h1>
+                </div>
+                <div class="projectsContainerSmall">
+                    <button class="projectCardSmall" onclick="window.open('pages/42index.html')">
+                        <h1 class="projectTitle">Логічні оператори. Розгалуження</h1>
+                        <p class="projectNumber">Проєкт 4.2</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/slider.html')">
+                        <h1 class="projectTitle">Створення слайдера на JS</h1>
+                        <p class="projectNumber">Проєкт 4.4</p>
+                    </button>
+                    <button class="projectCardSmall" onclick="window.open('pages/clicker.html')">
+                        <h1 class="projectTitle">Створення ігор-клікерів</h1>
+                        <p class="projectNumber">Проєкт 4.6</p>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="projectsSectionSmall">
+                <div class="projectSectionInfo">
+                    <h1 class="projectSectionTitle">Модуль 5</h1>
+                </div>
+                <div class="projectsContainerSmall">
+                    <button class="projectCardSmall" onclick="window.open('index.html')">
+                        <h1 class="projectTitle">Створення власного проєкту. Верстка сайту із заданим дизайном</h1>
+                        <p class="projectNumber">Проєкт 5.1-5.4 (Ця сторінка)</p>
+                    </button>
+                </div>
+                
             </div>
         </div>
     </section>

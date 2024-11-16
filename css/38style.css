@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  width: 100%;
+}
+
+@media (max-width: 512px) {
+  p {
+    color: #ee0000;
+    font-size: 20px;
+  }
+  div {
+    background-color: #ee0000;
+    height: 20px;
+  }
+}
+
+@media (min-width: 512px) {
+  p {
+    color: #eeee00;
+    font-size: 30px;
+  }
+  div {
+    background-color: #eeee00;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1028px) {
+  p {
+    color: #00eeee;
+    font-size: 40px;
+  }
+  div {
+    background-color: #00eeee;
+    height: 40px;
+  }
+}

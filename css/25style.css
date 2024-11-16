@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+span {
+  color: green;
+}
+
+div span {
+  color: blue;
+}
+
+#floor .cat-color {
+  color: gray;
+}
+
+.cat-color {
+  color: purple;
+}
+
+#floor span {
+  color: red;
+}
+
+div .cat-color {
+  color: orange;
+}
+
+p {
+  color:red;
+  font-weight: bold;
+  font-size:30px !important;
+}
+
+.text1 {
+  color:green;
+  font-size:20px;
+}
+
+#text2 {
+  color:blue;
+}
+
+ol {
+  font-size: 25px;
+  color:brown;
+  word-spacing: 2px;
+}
+
+h1, h2, h3 {
+  font-family: "Arial";
+  color: indigo;
+}
